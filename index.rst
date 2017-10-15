@@ -3,13 +3,23 @@
 Welcome
 =======
 
-Another header?
-===============
+Some welcome text here.
 
-Here is some text::
+.. only:: html
 
-  print "Hello World!"
-  >> Hello World!
+  --------
+  Contents
+  --------
   
-Guide
-=====
+.. toctree::
+    :maxdepth: 1
+    
+    quickinstall
+    summary
+    Physics <physics>
+
+.. toctree::
+    :maxdepth: 1
+    
+    Revisions History <revisions>
+    
